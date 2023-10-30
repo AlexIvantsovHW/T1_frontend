@@ -14,7 +14,7 @@ const Page = () => {
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await axios.get("http://localhost:3001/");
+            const response = await axios.get("http://localhost:3000/");
             setUserData(response.data)
             console.log(response.data)
           } catch (error) {
