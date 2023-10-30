@@ -1,0 +1,109 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.379);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.modal_card{
+    width:  500px;
+    height:  468px;
+    top: 126px;
+    left: 390px;
+    padding: 24px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-rows: repeat(3);
+    gap: 40px;
+    background-color: white;
+    
+    
+}
+.modal_top{
+    display: flex;
+    width: Fill (452px);
+    height: Hug (30px);
+    gap: 40px;
+}
+.modal_name{
+    width: 392px;
+    height: 30px;
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.modal_exit{
+    width: 20px;
+    height: 20px;
+}
+
+.modal_body{
+    width: 452px;
+    min-height: 188px;
+    height: fit-content;
+    display: grid;
+    grid-template-rows:repeat (5,24px);
+    grid-row-gap: 14px;
+}
+
+.mb-element{
+    width: 100%;
+    min-height: 24px;
+    max-height: fit-content;
+    display: grid;
+    grid-template-columns: 137px 275px;
+    gap:40px;
+}
+
+.mb-el-left{
+    width: 137px;
+    height: 100%;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+}
+.mb-el-right{
+    width: 275px;
+    height:min-content;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8189A3;
+}
+.modal_bottom{
+    width: Fill (452px);
+    height: Hug (90px);
+    display: grid;
+    grid-template-rows: repeat(2);
+    
+}
+.mbot-head{
+font-family: Proxima Nova;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 12px;
+}
+.mbot-bottom{
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8189A3;
+    }
